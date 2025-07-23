@@ -16,7 +16,7 @@ Well, i want it to use the CM3588 Plus, have max configuration of avaliable port
 So lets make a prototype BOM:
 - FriendlyElec CM3588 Plus (16 GB LPDDR5/64 GB eMMC) 
 - 2x USB-C 3.1 gen 1 OTG + DP - but, because it is OTG combo it can work in HOST mode or DEVICE mode - the computer needs to know when to use when, so i asked ChatGPT (as i didn't know the answer) what should i do to get every possible feature out of these ports, he said i need USB3 + DP mux (to know when to use which signal), VBUS switch (to power things only when the computer is the host) and CC Logic (to know who is host and who is device), so add example of models from ChatGPT to the list
- 1. 2x HD3SS460
+ 1. 2x HD3SS460RNHR
  2. 2x FUSB302
  3. 2x TPS25942
  4. 2x Amphenol FCI 10137064-00021LF
@@ -106,3 +106,45 @@ I am like 3.5 hours into making this BOM and i am still researching everything i
 okay! i made it, full prototype BOM! it has theoretically all the parts that i need (i fricking hope so). i will make the schematics etc tomorrow. rn i am going to rest from this abomination XD
 
 ## Time spent this session: 4 hours
+
+# July 22: Making PCB (hopefully)
+I remembered i can use official NAS Kit schematic files to get information about what ports need!
+First ill plan out exactly what i need and what it is for USB 3.1 gen 1 (so basically USB 3.0) type C with the DP1.4 support based on the NAS Kit schematic:
+1. 4x 10uF/10V capacitor (C2012X7R1A106K125AC)
+2. 3x 1uF/10V capacitor (GRM155C71A105KE11D)
+3. 2x 220pF/50V capacitor (GRM1885C1H221JA01J)
+4. 2x 2.2K/NC resistor (RC0603FR-072K2L)
+5. TVS Diode (PESD5V0S1UL,315)
+6. FUSB302 (USB/DP controller)
+7. 4.7K resistor (RC0603FR-074K7L)
+8. 0 resistor/jumper (RC0603JR-070RL)
+9. 100nF/16V (GCM188R71C104KA37J)
+10. Power Distribution Switch (TPS25942ARVCR)
+11. USB-C Port (Amphenol FCI 10137064-00021LF)
+12. Specific diode (Vrwm=5V, Vbr=5.6min, Ipp=10A, ESD=30KV, Ppp=85W)
+
+It is for one port, so i will need 2x that
+
+Then for hdmi outputs should be something alongside this:
+1. 8x 499 resistors
+2. 4x 10k resistors
+3. 1k resistor
+4. 3x 1.8k resistors
+5. 2x 27k resistor
+6. 4x 2SK3018W MOSFETs
+7. 2x Specific diode (LRB521S-30T1G)
+8. 6x Specific diodes (Vrwm=5V, Vbr=5.6min, Ipp=10A, 20pF, ESD=30KV, Ppp=85W)
+9. WNM6002-3/TR Transistors
+10. 2x ESD73034D
+11. 4x TVS Diode
+
+Rest of it i will do when i get home cause i need to go right now!
+
+## Time spent this session: 1.5 hours
+
+# July 23: PCB Making (more hopefully)
+Yo, so i made basically 1 day break (from ending yesterdays session to starting this one, its 8:46 PM rn and i ended about 3:30 PM yesterday) and now i am ready to do this.
+
+One more thing: the things i will make can look like a copy from original NAS Kit, it is because it is very hard and almost impossible to make it enitrely your own, most of this things are required in every case of making something (pull up resistors, pull down resistors, TVS diodes, capacitors etc) and for me it is more about learning all of this stuff, i learned a lot already (i always thought it was just simple as making route from port's pin to chipset's/cpu's pin and calling it a day, eventually adding some protection for things like usb killers) and i am trying to make it as much "mine" as i can, but sometimes it is not possible.
+
+Okay, so next up we have... let me check schematics: HDMI INPUT!!! It shouldn't be this much different from the inputs!
