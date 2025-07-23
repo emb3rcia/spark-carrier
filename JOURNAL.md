@@ -148,3 +148,70 @@ Yo, so i made basically 1 day break (from ending yesterdays session to starting 
 One more thing: the things i will make can look like a copy from original NAS Kit, it is because it is very hard and almost impossible to make it enitrely your own, most of this things are required in every case of making something (pull up resistors, pull down resistors, TVS diodes, capacitors etc) and for me it is more about learning all of this stuff, i learned a lot already (i always thought it was just simple as making route from port's pin to chipset's/cpu's pin and calling it a day, eventually adding some protection for things like usb killers) and i am trying to make it as much "mine" as i can, but sometimes it is not possible.
 
 Okay, so next up we have... let me check schematics: HDMI INPUT!!! It shouldn't be this much different from the inputs!
+
+So for input we need:
+1. 2x 1k resistor
+2. 5x 10k resistor
+3. 100k resistor
+4. 20k resistor
+5. 47k resistor
+6. 2x 56k resistor
+7. 2.2k resistor
+8. MMBT3904T1G transistor
+9. 3x Specific diodes (Vrwm=5V, Vbr=5.6min, Ipp=10A, 20pF, ESD=30KV, Ppp=85W)
+10. AO3415A MOSFET
+11. 2x Specyfic diodes (LRB521S-30T1G)
+12. 3x 2SK3018W MOSFETs
+13. 2x TVS Diode
+
+Okay, and it is all from what i can see!
+
+Now is audio:
+1. 2x Specific diodes (Vrwm=5V, Vbr=5.6min, Ipp=10A, 20pF, ESD=30KV, Ppp=85W)
+2. 6x 0 resistors/jumpres
+3. 3x 10k resistors
+4. 2.2 k resistor
+5. 1uF/10V capacitor
+6. 2x 100 nF/16V capacitor
+7. 2SK3018W MOSFET
+
+Then we have Ethernet:
+1. 2x 100 nF/16V capacitor
+2. 4x 560 radiators
+3. 2x TVS Diodes
+
+Also, theres microSD Socket:
+1. 6x 33 resistors
+2. 10uF/6.3V capacitor
+3. 100nF/16V capacitor
+4. 2x TVS Diodes
+
+Then the USB-A 3.0 port:
+1. 10uF/10V capacitor
+2. 2x 22uF/10V capacitors
+3. 4.7k resistor
+4. 100k resistor
+5. jumper
+6. Specific diode (Vrwm=5V, Vbr=5.6min, Ipp=10A, 20pF, ESD=30KV, Ppp=85W)
+7. TVS diode
+
+Then we have the USB-A 2.0 port, which is almost the same:
+1. 10uF/10V capacitor
+2. 2x 22uF/10V capacitors
+3. 6.8k resistor
+4. 100k resistor
+5. jumper
+6. Specific diode (Vrwm=5V, Vbr=5.6min, Ipp=10A, 20pF, ESD=30KV, Ppp=85W)
+7. TVS diode
+
+We will get to pcie last, when we will be connecting it
+
+So lets open KiCad! 
+
+I added 4x 2 row 50 pin each connectors, just like cm3588 has!
+
+Lets start with something simple (at least simpler than others) such as ethernet! *(it took me almost an hour to find ethernet port that actually supports 2.5 gig ethernet AND has footprint and symbol, and now i am looking for another one cause this one doesnt have magnetics in it)*
+
+I found the one! it is Taoglas TMJM6002A9NL!
+
+I will be honest: it is tiring, everytime i think i am done with a section a new error pops up. I am going to sleep right now and i will try it tommorow. Goodnight!
