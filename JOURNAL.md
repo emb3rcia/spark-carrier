@@ -215,3 +215,14 @@ Lets start with something simple (at least simpler than others) such as ethernet
 I found the one! it is Taoglas TMJM6002A9NL!
 
 I will be honest: it is tiring, everytime i think i am done with a section a new error pops up. I am going to sleep right now and i will try it tommorow. Goodnight!
+
+## Time spent this session: 1.5 hours
+
+# July 26: Return
+Hello! Its me again! I am back, it is 9 PM and i am gonna pull all nighter today cause the submission deadline is close and i want to end this by then! So i just watched a yt video called "High-Speed PCB Design Tips - Phil's Lab #25", it is somewhat helpfull! I am searching some type of course on udemy co i can understand it all better!
+
+Okay, so it is 1 am july 27th, and i have few things. First of all, i wont count this time into time spent this session, for me it isnt working on a project but more of learning new things so working on myself and my knowledge. Also i was making breaks, multi tasking etc so i wouldnt feel good counting it toward the project as some time wasnt even spent on it at all.
+
+Second of all: i watched playlist from digi-key about making carrier board for cm4, as it is very simmiliar, it is great! i recommend to watch it if you are new to this like me! (link)[https://www.youtube.com/watch?v=ypcPJC_umPQ&list=PLEBQazB0HUyRwjr761b-MLNEu8FA8WKSG]
+
+Third of all: in about 15-30 minutes i will end my break and start watching another video for greater details, the playlist above was good about teaching me routing things in pcb editor, but i want to know more about theory and schematics so i want to research further
