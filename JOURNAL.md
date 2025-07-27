@@ -226,3 +226,29 @@ Okay, so it is 1 am july 27th, and i have few things. First of all, i wont count
 Second of all: i watched playlist from digi-key about making carrier board for cm4, as it is very simmiliar, it is great! i recommend to watch it if you are new to this like me! (link)[https://www.youtube.com/watch?v=ypcPJC_umPQ&list=PLEBQazB0HUyRwjr761b-MLNEu8FA8WKSG]
 
 Third of all: in about 15-30 minutes i will end my break and start watching another video for greater details, the playlist above was good about teaching me routing things in pcb editor, but i want to know more about theory and schematics so i want to research further
+
+I ended up watching only playlist linked above, as i couldnt find other helpful videos. I am gonna turn on kicad now, wish me luck!
+
+it is too late, i am going to sleep gng, cause i dont wanna make my parents mad that i am pulling an all nighter, but i am waking up early and will continue this entry!
+
+okay so i couldnt fall asleep for like 45 minutes so i am back XD, time to make schematics
+
+I schemed out ethernet!
+
+![Oh no! The image didn't load :<. It was a screenshot from Schematic Editor in KiCad at the time of writing it. Please send an message to me on slack about it, i will fix is ASAP!](assets/eth-july27.png)
+
+Now, what should i do next? Maybe RTC? It should be easy!
+
+![Oh no! The image didn't load :<. It was a screenshot from Schematic Editor in KiCad at the time of writing it. Please send an message to me on slack about it, i will fix is ASAP!](assets/rtc-july27.png)
+
+And done! Now i think microSD socket would be nice!
+
+![Oh no! The image didn't load :<. It was a screenshot from Schematic Editor in KiCad at the time of writing it. Please send an message to me on slack about it, i will fix is ASAP!](assets/msd-july27.png)
+
+Done!!! Now what? Maybe audio?
+
+![Oh no! The image didn't load :<. It was a screenshot from Schematic Editor in KiCad at the time of writing it. Please send an message to me on slack about it, i will fix is ASAP!](assets/audio-july27.png)
+
+I done audio! (i think at least), there are 2 things that are theoretically not connected even though they are, so i just need to fix it later. Right now i will add images of what i did today and end this session.
+
+## Time spent this session: 5h
