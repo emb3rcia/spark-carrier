@@ -251,4 +251,28 @@ Done!!! Now what? Maybe audio?
 
 I done audio! (i think at least), there are 2 things that are theoretically not connected even though they are, so i just need to fix it later. Right now i will add images of what i did today and end this session.
 
-## Time spent this session: 5h
+## Time spent this session: 5 hours
+
+# July 28: Second all-nighter
+Hello! It is 3 am, july 28 2025, and i am going to make the rest of things neccesarry! Also i will be trying method of working that should work, 40 min of this project, 20 min of break, 40 min of this project and so on
+
+So, the first two things that i will do are fixing. I need to replace the buses i made accidentally in ethernet connection with wiring, and change mosfet as the one i took have glitched symbol, this shouldnt take long.
+
+![Oh no! The image didn't load :<. It was a screenshot from Schematic Editor in KiCad at the time of writing it. Please send an message to me on slack about it, i will fix is ASAP!](assets/audio-july28.png)
+![Oh no! The image didn't load :<. It was a screenshot from Schematic Editor in KiCad at the time of writing it. Please send an message to me on slack about it, i will fix is ASAP!](assets/eth-july28.png)
+
+Done! Now i need to decide what to wire next in schematics, i think i will do usb 2.0 next!
+
+![Oh no! The image didn't load :<. It was a screenshot from Schematic Editor in KiCad at the time of writing it. Please send an message to me on slack about it, i will fix is ASAP!](assets/USB-A-2.0-july28.png)
+
+And i think it is done! Now i think i will make usb-a 3.0 host! I will make 2 of these ports, and leave one OTG USB-C with DP to make it easier!
+
+![Oh no! The image didn't load :<. It was a screenshot from Schematic Editor in KiCad at the time of writing it. Please send an message to me on slack about it, i will fix is ASAP!](assets/USB-A-3.0-july28.png)
+
+Finished! Next up will be the USB-C 3.0 OTG!
+
+![Oh no! The image didn't load :<. It was a screenshot from Schematic Editor in KiCad at the time of writing it. Please send an message to me on slack about it, i will fix is ASAP!](assets/USB-C-july28.png)
+
+I think i did it! But i saw one thing, on global labels which i am using i will need to set input/output/bidirectional later, which will be a hastle. I will now add images to journal and then commit push it to GH!
+
+## Time spent this session: 3 hours
