@@ -288,3 +288,5 @@ Also, i said i will be trying some method of working, i am gonna change it up a 
 - it should be like this: 25 (W) - 10 (B) - 25 (W) - 10 (B) - 25 (W) - 25 (B) - repeat
 
 Lets hope it works! Also i will be editing journal at the end of every working time and pushing it to GH, so lets start! i need to make HDMI rn so i will get going!
+
+Okay, first work time ended, i picked out the port model, downloaded and imported everything etc, next up i will need to get all the wiring in schematic, but first 10 min break.
