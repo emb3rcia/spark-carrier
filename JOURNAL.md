@@ -218,7 +218,7 @@ I will be honest: it is tiring, everytime i think i am done with a section a new
 
 ## Time spent this session: 1.5 hours
 
-# July 26: Return
+# July 26-27: Return
 Hello! Its me again! I am back, it is 9 PM and i am gonna pull all nighter today cause the submission deadline is close and i want to end this by then! So i just watched a yt video called "High-Speed PCB Design Tips - Phil's Lab #25", it is somewhat helpfull! I am searching some type of course on udemy co i can understand it all better!
 
 Okay, so it is 1 am july 27th, and i have few things. First of all, i wont count this time into time spent this session, for me it isnt working on a project but more of learning new things so working on myself and my knowledge. Also i was making breaks, multi tasking etc so i wouldnt feel good counting it toward the project as some time wasnt even spent on it at all.
@@ -253,7 +253,7 @@ I done audio! (i think at least), there are 2 things that are theoretically not 
 
 ## Time spent this session: 5 hours
 
-# July 28: Second all-nighter
+# July 27-28: Second all-nighter
 Hello! It is 3 am, july 28 2025, and i am going to make the rest of things neccesarry! Also i will be trying method of working that should work, 40 min of this project, 20 min of break, 40 min of this project and so on
 
 So, the first two things that i will do are fixing. I need to replace the buses i made accidentally in ethernet connection with wiring, and change mosfet as the one i took have glitched symbol, this shouldnt take long.
@@ -276,3 +276,15 @@ Finished! Next up will be the USB-C 3.0 OTG!
 I think i did it! But i saw one thing, on global labels which i am using i will need to set input/output/bidirectional later, which will be a hastle. I will now add images to journal and then commit push it to GH!
 
 ## Time spent this session: 3 hours
+
+# July 28: New working scheme
+Hello again! it was 12h from last entry, and i am ready to do some more in this project, hopefully end the schematic so i can get to wiring it.
+
+Also, i said i will be trying some method of working, i am gonna change it up a little bit so it can be more simmiliar to pomodoro teaching method, so now it will be like this:
+- 25 minutes of working
+- 10 minutes of break
+- (the 35 minutes above will be called a cycle from now on)
+- every 3 cycles the break would be 25 minutes instead of 10
+- it should be like this: 25 (W) - 10 (B) - 25 (W) - 10 (B) - 25 (W) - 25 (B) - repeat
+
+Lets hope it works! Also i will be editing journal at the end of every working time and pushing it to GH, so lets start! i need to make HDMI rn so i will get going!
